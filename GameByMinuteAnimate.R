@@ -1,8 +1,9 @@
 library(ggplot2)
 library(gganimate)
 library(transformr)
-
-dir <- 'C:\\Users\\abunn\\Documents\\NBA Sankey\\By Minute Chart'
+library(dplyr)
+ 
+dir <- '***\\By Minute Chart' #set path
 setwd(dir)
 
 df1 <- read.csv('AverageGamebyMinute2015.csv')
